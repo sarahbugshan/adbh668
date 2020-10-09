@@ -1,5 +1,4 @@
 import processing.sound.*;
-
 PImage img;
 import processing.sound.*;//import sound
 SoundFile file;
@@ -15,7 +14,7 @@ ellipse(190,200,140,147);//the face
 fill(250,250,250);
 strokeCap(90);
 noFill();
-// make the facial expresions
+// make the facial expressions
 arc(165, 180, 30, 30, THIRD_PI, PI-QUARTER_PI);
 arc(235, 180, 30, 30, THIRD_PI, PI-QUARTER_PI);
 arc(168, 192, 35, 15, HALF_PI, PI-QUARTER_PI);
